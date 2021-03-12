@@ -14,9 +14,6 @@
     padding-left:20px;
 	color:white;
 }
-#center{
-
-}
 
 #bigpicture{
 	padding-top:120px;
@@ -131,4 +128,9 @@
     margin-bottom: 10px;
     font-size: 0.7em;
     color: #858585;
+}
+
+.mySlides {
+	display:none;
+	padding-left:670px;
 }

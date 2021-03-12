@@ -2,6 +2,7 @@
 <html>
  <head>
  <link rel="stylesheet" href="../main.css">
+ <script src="https://kit.fontawesome.com/d95e1dcf4f.js" crossorigin="anonymous"></script>
  </head>
  
  <body>
@@ -22,7 +23,41 @@
  </nav>
  </header>
  
- <h2>Clip</h2>
+ <h2 style = "padding-top:100px; text-align:center;">Clip</h2>
+ <h3 style = "text-align:center;">CHILDREN LEARNING INDEPENDENTLY PROGRAM</h3>
+ <p style = "margin: 0px 500px 0px 500px;"><strong>Due to the isolation of children and families during this pandemic, Kids Read has launched a new program to take the books directly to the children.  It is called CLIP.  We will  provide appropriate level workbooks to each child. These are the  currently and traditionally used education workbooks and learning supplies they are used to.  The Library Ambassador with the help of the Kids Read Tutors  will register and track the progress of children that live near the libraries.
+ They will meet with their family at the library for instruction and guidance.</strong></p><br/>
+ 
+  <p style = "margin: 0px 500px 0px 500px;">Kids Read Team members Douglas, Ramulah and Sam register and do the orientation of kids in Kosovo.  See some of the children registered and their happy faces.
+
+</p>
+ 
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="../images/kosovo/img1.jpg" style="width:100%">
+  <img class="mySlides" src="../images/kosovo/img2.jpg" style="width:100%">
+  <img class="mySlides" src="../images/kosovo/img3.jpg" style="width:100%">
+  <img class="mySlides" src="../images/kosovo/img4.jpg" style="width:100%">
+  <img class="mySlides" src="../images/kosovo/img5.jpg" style="width:100%">
+  <img class="mySlides" src="../images/kosovo/img6.jpg" style="width:100%">
+  <img class="mySlides" src="../images/kosovo/img7.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
  
  
  <footer>
