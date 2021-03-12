@@ -5,6 +5,42 @@
    top: 0;
   }
   
+  #header{
+  display: flex;
+   flex-direction: row;
+   justify-content:space-between;
+}
+#title{
+	padding-right:49px;
+}
+#center{
+ text-align:center;
+}
+.myButton {
+    float: right;
+	box-shadow: 0px 0px 0px 2px #c2c730;
+	background-color:orange;
+	border-radius:10px;
+	border:1px solid #cf933a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #a89c1c;
+
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #9c9546 5%, #c2b521 100%);
+	background-color:#9c9546;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
   .links{
    display: flex;
    flex-direction: row;
