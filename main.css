@@ -1,16 +1,10 @@
  header{
-   background-color:Red;
+   background-color:#50aad2;
    position:fixed;
    width: 100%;
    top: 0;
   }
-
-#title{
-  display: flex;
-   flex-direction: row;
-   justify-content:center;
-}
-
+  
   .links{
    display: flex;
    flex-direction: row;
@@ -53,7 +47,7 @@
 }
 
 .footer {
-    background-color: #000000;
+    background-color: #50aad2;
     color: #cbcbcb;
     font-family: "Ubuntu Condensed", sans-serif;
     display: flex;
