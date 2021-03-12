@@ -17,6 +17,11 @@
 #center{
 
 }
+
+#bigpicture{
+	padding-top:120px;
+}
+
 .myButton {
 	box-shadow: 0px 0px 0px 2px #c2c730;
 	background-color:orange;
@@ -49,6 +54,7 @@
   
   a{
 	  color:white;
+	  text-decoration:none;
   }
   
     .links a:hover{
