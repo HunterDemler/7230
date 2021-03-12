@@ -10,6 +10,15 @@
    flex-direction: row;
    justify-content:space-evenly;
   }
+  
+  a{
+	  color:white;
+  }
+  
+    a:hover{
+   color:orange;
+  }
+  
 #mission{
 	padding-top:120px;
 }
@@ -60,7 +69,7 @@
 
 .footer > .social-media-icons-wrapper {
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     width: 300px;
     display: flex;
     justify-content: space-around;
